@@ -18,9 +18,9 @@ A Python script for calculating the likelihood of reconstructed texts in lacunae
 Installation
 ============
 
-To use this script, you must have `Python <https://www.python.org/>` and `Poetry <https://python-poetry.org/>` installed on your computer.
+To use this script, you must have `Python <https://www.python.org/>`_ and `Poetry <https://python-poetry.org/>`_ installed on your computer.
 
-To clone this repository, you can download it as a .zip archive by the clicking the "Code" button on the repository page and selecting the download option in the dropdown menu, or, if you have `Git <https://git-scm.com/>` installed, you can copy the clone command under the "Code" button.
+To clone this repository, you can download it as a .zip archive by the clicking the "Code" button on the repository page and selecting the download option in the dropdown menu, or, if you have `Git <https://git-scm.com/>`_ installed, you can copy the clone command under the "Code" button.
 In the latter case, you can install ``calclac`` entirely on the command-line as follows:
 
 .. code-block:: bash
@@ -55,4 +55,4 @@ Credits
 
 ``calclac`` was designed by Joey McCollum (Australian Catholic University).
 
-If you use this software, please cite the following paper: Joey McCollum, "Likelihood Calculations for Reconstructed Lacunae and Papyrus 46's Text of Ephesians 6:19," _DSH_ (forthcoming), DOI: TBA.
+If you use this software, please cite the following paper: Joey McCollum, "Likelihood Calculations for Reconstructed Lacunae and Papyrus 46's Text of Ephesians 6:19," *DSH* (forthcoming), DOI: TBA.
