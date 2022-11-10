@@ -11,6 +11,12 @@
 
 A Python script for calculating the likelihood of reconstructed texts in lacunae.
 
+When a manuscript is missing one or more lines due to illegible material or damage to the page, philologists will often offer a reconstruction of the missing text, but their reconstructions may differ.
+If the text of the manuscript in question is copied in lines according to a desired length (as opposed to being copied in sense-units, in which case each line is only as long as the sense-unit requires), then we can assume a probability distribution (e.g., a normal distribution) on the line lengths and calculate the probability that a line is a given length according to this distribution.
+This gives us a basic way to evaluate the probabilities of different authors' reconstructions of lacunose text, but we can be even more precise.
+We can efficiently calculate the total probability of *all* divisions of a given text over a given number of lines (even restricting the possible break-points according to language-specific rules about how words should be broken over lines) using the well-known computational technique of dynamic programming.
+The ``calclac`` program was designed as a lightweight implementation of this approach. 
+
 .. end-about
 
 .. start-quickstart
