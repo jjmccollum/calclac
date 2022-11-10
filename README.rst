@@ -44,13 +44,15 @@ To use the software, you can run the ``calclac.py`` script with Python via the f
 
     python calclac.py <mean line length> <standard deviation of line length> <number of lines> <text>
 
-For the examples from Eph 6:19 in the paper, the command for the text containing the longer reading would be
+For the examples from P46's text of Ephesians in the paper, we know that the average line length of P46 in Ephesians is 31.5576 letters, with a standard deviation of 2.9011.
+In P46, Eph 6:19-20 are lacunose, as three lines are missing at the bottom of the page.
+If we wanted to evaluate the probability that a text with the longer reading in Eph 6:19 was fit into the space of these three lines, we would enter the following command, including hyphens at breakpoints within words to accommodate Greek line-breaking conventions:
 
 .. code-block:: bash
 
     python calclac.py 31.5576 2.9011 3 "υ-περ ε-μου ι-να μοι δο-θη λο-γος εν α-νοι-ξει του στο-μα-τος μου εν παρ-ρη-σι-α γνω-ρι-σαι το μυ-στη-ρι-ον του ευ-αγ-γε-λι-ου υ-περ ου πρε-σβευ-ω εν α-λυ-σει"
 
-and the corresponding command for the text containing the shorter reading would be
+If we wanted to do the same for a text with the shorter reading in 6:19, the corresponding command would be
 
 .. code-block:: bash
 
