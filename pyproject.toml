@@ -1,0 +1,32 @@
+[tool.poetry]
+name = "calclac"
+version = "0.1.0"
+description = "A Python script for calculating the likelihood of reconstructed texts in lacunae"
+authors = ["Joey McCollum"]
+license = "MIT"
+readme = "README.rst"
+homepage = "https://github.com/jjmccollum/calclac"
+repository = "https://github.com/jjmccollum/calclac"
+keywords = ["Python", "digital humanities", "lacunae", "likelihood", "dynamic programming"]
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Intended Audience :: Science/Research",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+argparse = "^1.4.0"
+scipy = "^1.9.3"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
