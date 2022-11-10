@@ -64,7 +64,6 @@ def calculate_maximum_probability(mean: float, stddev: float, lines: int, text: 
         path.insert(0, edge) # add it earlier in the path
         j = edge[0]
         k -= 1
-    print(path)
     # Then reconstruct the most likely partition from this path:
     partition = []
     for edge in path:
