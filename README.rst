@@ -66,4 +66,4 @@ Credits
 
 ``calclac`` was designed by Joey McCollum (Australian Catholic University).
 
-If you use this software, please cite the following paper: Joey McCollum, "Likelihood Calculations for Reconstructed Lacunae and Papyrus 46's Text of Ephesians 6:19," *DSH* (forthcoming), DOI: TBA.
+If you use this software, please cite the following paper: Joey McCollum, "Likelihood Calculations for Reconstructed Lacunae and Papyrus 46's Text of Ephesians 6:19," *DSH* (forthcoming), DOI: 10.1093/llc/fqac078.
